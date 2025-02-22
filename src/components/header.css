@@ -1,0 +1,33 @@
+.header-container{
+
+    background-color: green;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: center;
+}
+.logo-and-title-container{
+    width: 30%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.cart-quantity{
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+}
+.logo-container{
+width: 20%;
+height: 30%;
+}
+.logo-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+}

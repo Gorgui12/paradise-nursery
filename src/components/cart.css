@@ -1,0 +1,50 @@
+.panier-container{
+    width: 500px;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline-start: 30%;
+}
+.btn-decrement, .btn-increment{
+    padding: 5px 10px;
+    transition: 0.3s ease;
+    font-size: large;
+}
+.btn-decrement:hover{
+    background-color: red;
+    color: white;
+    transform: scale(0.8);
+}
+.btn-increment:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.2);
+}
+.total{
+    margin-bottom: 3rem;
+    font-size: large;
+}
+.panier-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    border-bottom: 2px solid yellow;
+    background-color: azure;
+}
+.img-container{
+    width: 30%;
+    height: 50%;
+}
+.product-proprety-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
